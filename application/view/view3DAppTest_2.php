@@ -52,30 +52,54 @@
   <div class="column">
   <img src='Assets/Images/chalice_1.png' style='width:100%' onclick='openModal();currentSlide(4)' class='hover-shadow cursor'>
   </div>
+  <div class="column">
+  <img src='Assets/Images/chair.PNG' style='width:100%' onclick='openModal();currentSlide(5)' class='hover-shadow cursor'>
+  </div>
+  <div class="column">
+  <img src='Assets/Images/wireframe/chair-wireframe.PNG' style='width:100%' onclick='openModal();currentSlide(6)' class='hover-shadow cursor'>
+  </div>
+  <div class="column">
+  <img src='Assets/Images/wireframe/chalice-wireframe.PNG' style='width:100%' onclick='openModal();currentSlide(7)' class='hover-shadow cursor'>
+  </div>
 </div>
 
 <div id="myModal" class="modal" style="display:none;">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <span class="close cursor" style="background-color:white;" onclick="closeModal()">&times;</span>
   <div class="modal-content"> 
 
     <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
+      <div class="numbertext">1 / 7</div>
       <img src='Assets/Images/chalice.png' style='width:40%; display: block; top:10%; margin-top: -10px; margin-left: auto; margin-right: auto;'>
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
+      <div class="numbertext">2 / 7</div>
       <img src='Assets/Images/cube_1.png' style='width:40%; display: block; top:10%; margin-top: -10px; margin-left: auto; margin-right: auto;'>"
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
+      <div class="numbertext">3 / 7</div>
       <img src='Assets/Images/thurible_1.png' style='width:40%; display: block; top:10%; margin-top: -10px; margin-left: auto; margin-right: auto;'>
     </div>
     
     <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
+      <div class="numbertext">4 / 7</div>
       <img src='Assets/Images/chalice_1.png' style='width:40%; display: block; top:10%; margin-top: -10px; margin-left: auto; margin-right: auto;'>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 7</div>
+      <img src='Assets/Images/chair.PNG' style='width:40%; display: block; top:10%; margin-top: -10px; margin-left: auto; margin-right: auto;'>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 7</div>
+      <img src='Assets/Images/wireframe/chair-wireframe.png' style='width:40%; display: block; top:10%; margin-top: -10px; margin-left: auto; margin-right: auto;'>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 7</div>
+      <img src='Assets/Images/wireframe/chalice-wireframe.png' style='width:40%; display: block; top:10%; margin-top: -10px; margin-left: auto; margin-right: auto;'>
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
